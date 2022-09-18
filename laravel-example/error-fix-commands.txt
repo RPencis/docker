@@ -1,0 +1,6 @@
+
+# to build laravel project use versin 8
+docker-compose run --rm composer create-project --prefer-dist laravel/laravel=8 .
+
+# after starting server open php cli in docker desktop
+chmod -R o+w storage bootstrap/cache
